@@ -1,0 +1,35 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data outputs
+output.csv
+*.log
+
+# Ignore unrelated folders
+Bookly/
+dataPipeline/
+menu_ocr_model/
+zones/
+cityInfo/
+asyncioBasics/
+norway-energy-upload/
+norweignEnergy/
+one/
+requirements.txt
+
+# Ignore raw NASA data and large processed CSVs
+*.txt
+*.csv
+.env
